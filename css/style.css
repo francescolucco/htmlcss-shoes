@@ -31,6 +31,7 @@ ul li.voice-menu a{
   width: 50px;
   line-height: 50px;
   text-align: center;
+  z-index: 550;
 }
 ul li.voice-menu a:hover{
   color:white;
