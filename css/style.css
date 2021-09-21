@@ -8,12 +8,7 @@
 html{
   scroll-behavior: smooth;
 }
-{}
-{}
-/* UTILS */
-{}
-{}
-{}
+
 /* HEADER */
 header{
   position: fixed;
@@ -48,13 +43,11 @@ ul li.voice-menu:hover{
   width: 50px;
 }
 
-{}
-{}
 /* MAIN */
 .box-shoes{
   width: 100%;
   height: 100vh;
-  position:relative;
+  position: relative;
 }
 .box-shoes.red{
   background-color: red;
@@ -66,11 +59,23 @@ ul li.voice-menu:hover{
   background-color: yellow;
 }
 
-.box-shoes img{
+.img-content{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 55%;
+  width: 50%;
 }
-{}
+.box-shoes img{
+  width: 100%;
+  /* height: 100%; */
+}
+.top-model{
+  text-align: center;
+  color: yellow;
+  font-size: 3vw;
+
+}
+#special-case-green{
+  color: green;
+}
